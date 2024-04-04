@@ -22,8 +22,14 @@ h1 {
     font-weight: 700;
 }
 
-h1 strong {
+.earth strong {
     background: linear-gradient(55deg, rgb(139, 249, 145) 45%, rgb(122, 208, 255) 45%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.moon strong {
+    background: linear-gradient(55deg, rgb(236, 236, 236) 60%, rgb(131, 131, 131) 45%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
